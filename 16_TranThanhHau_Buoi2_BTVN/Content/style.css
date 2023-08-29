@@ -1,0 +1,124 @@
+﻿body {
+    margin:0;
+}
+.menu{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background:black;
+    height:70px;
+}
+.logo a{
+    text-decoration:none;
+    color:yellow;
+    font-size:30px;
+}
+ul{
+    display:flex;
+}
+ul li{
+    list-style:none;
+    padding:20px;
+}
+ul li a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.menu a:hover{
+    color:yellow;
+}
+.container{
+   margin:30px 0;
+   width:1300px;
+   margin:auto;
+}
+.tieude{
+    padding-top:50px;
+    padding-bottom:70px;
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+}
+.h1{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.h1 img{
+    width:350px;
+}
+.h2 img{
+    width:350px;
+}
+.h2{
+    display:flex;
+    justify-content:space-between;
+}
+.tieude p{
+    font-size:15px;
+    color:DimGray;
+}
+.nn{
+    text-align:center;
+}
+.nn p{
+    color:DimGray;
+}
+footer{
+    background:Gray;
+    padding:20px;
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.f1 p{
+    color:white;
+    font-size:15px;
+}
+.icon_footer .fa{
+    font-size:40px;
+    padding:10px;
+}
+.f2 p{
+    color:yellow;
+}
+.about{
+    margin:50px 0;
+    display:flex;
+}
+.about .anh{
+    width:50%;
+}
+.about .gioithieu{
+    width:50%;
+    margin-left:50px;
+}
+.gioithieu h1{
+    font-size:70px;
+    text-transform:uppercase;
+}
+.gioithieu p{
+    font-size:30px;
+    padding-left:20px;
+}
+.anh img{
+    width:100%;
+}
+.bai10_contact{
+    text-align:center;
+    margin:80px 0;
+}
+.bai10_contact h1{
+    font-size:50px;
+    text-transform:uppercase;
+}
+.bai10_contact p{
+    font-size:25px;
+}
+.trangchu_bai78910{
+    margin:12.5rem;
+    text-align:center;
+    font-size:100px;
+}

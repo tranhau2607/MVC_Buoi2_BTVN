@@ -1,0 +1,187 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+/*-------------------------*/
+body{
+    margin: 0px 50px;
+}
+.containe{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.content{
+    width: 70%;
+    margin-left: 100px;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #2f833f;
+    --second-color: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+    --box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
+}
+
+
+.search_tt {
+    margin-right: 20px;
+    width: 25%;
+    position: relative;
+}
+
+.search_tt h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--main-color);
+    padding: 13px;
+    color: #fff;
+    font-size: 23px;
+}
+
+
+.menu{
+    margin: 5px 0;
+    
+}
+.menu ul {
+    width: 100%;
+    align-items: center;
+    
+}
+
+.menu ul li {
+    line-height: 60px;
+    border-bottom: 1px solid rgb(242, 239, 239);
+    position: relative;
+    
+}
+
+.menu ul li a {
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: var(--main-color);
+}
+.tieudepage{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    height: 150px;
+    background: var(--main-color);
+}
+.navbar{
+    font-size: 20px;
+    height: 100px;
+}
+.footer{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background: var(--main-color);
+}
+
+.product-container-small {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+}
+
+.product-container-small .box {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.product-container-small img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: .5rem;
+}
+
+.product-container-small .box h3 {
+    font-size: 1.3rem;
+    font-weight: 800px;
+    text-transform: uppercase;
+    margin: 0.5rem 0 .5rem;
+}
+
+.product-container-small .box .content {
+    display: flex;
+    align-items: center;
+}
+
+.product-container-small .box .content span {
+    padding: .3rem 1rem;
+    color: var(--bg-color);
+    background: var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.product-container-small .box .content a {
+    color:black;
+    margin-top:10px;
+    text-decoration:none;
+    padding: .3rem 1.5rem;
+    color: var(-text-color);
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.product-container-small .box .content a:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transition: .2s all linear;
+}.text-center{
+     padding-top:20px;
+ }
+ .form-group{
+     padding-top:10px;
+ }
+#login .container #login-row #login-column #login-box {
+  width: 800px;
+  height: 650px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 5px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -50px;
+}
+.search-sp select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #b0b0b0;
+    outline: none;
+    font-size: 1rem;
+}

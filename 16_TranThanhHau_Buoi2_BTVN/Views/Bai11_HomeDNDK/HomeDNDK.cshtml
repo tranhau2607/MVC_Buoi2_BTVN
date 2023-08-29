@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "HomeDNDK";
+    Layout = "~/Views/Shared/_Layout_Bai11.cshtml";
+}
+
+@model _16_TranThanhHau_Buoi2_BTVN.Models.User
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @{
+        var user = Session["user"] as _16_TranThanhHau_Buoi2_BTVN.Models.User;
+    }
+    <h2>Welcome @user.UserName</h2>
+    <a href="/Bai11_HomePage/DangNhap">Đăng Xuất</a>
+</body>
+</html>

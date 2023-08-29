@@ -1,0 +1,263 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+/*-------------------------*/
+body{
+    margin: 0px 50px;
+}
+.containe{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.content{
+    width: 70%;
+    margin-left: 100px;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #2f833f;
+    --second-color: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+}
+
+
+.search_tt {
+    margin-right: 20px;
+    width: 25%;
+    position: relative;
+    
+}
+
+.search_tt h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color:yellow;
+    padding: 13px;
+    color: black;
+    font-size: 23px;
+}
+
+
+.menu{
+    margin: 5px 0;
+    
+}
+.menu ul {
+    width: 100%;
+    align-items: center;
+    
+}
+
+.menu ul li {
+    line-height: 60px;
+    border-bottom: 1px solid rgb(242, 239, 239);
+    position: relative;
+    
+}
+
+.menu ul li a {
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+.tieudepage img{
+    width:100%;
+}
+.navbar{
+    font-size: 20px;
+    height: 100px;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color:yellow;
+}
+
+.product-container-small {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1.5rem;
+    text-align:center;
+}
+
+.product-container-small .box {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.product-container-small img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: .5rem;
+}
+
+.product-container-small .box h3 {
+    font-size: 1.3rem;
+    font-weight: 800px;
+    text-transform: uppercase;
+    margin: 0.5rem 0 .5rem;
+}
+
+.product-container-small .box .content {
+    display: flex;
+    align-items: center;
+}
+
+.product-container-small .box .content a {
+    color:black;
+    margin-top:10px;
+    text-decoration:none;
+    padding: .3rem 1.5rem;
+    color: var(-text-color);
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.product-container-small .box .content a:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transition: .2s all linear;
+}.text-center{
+     padding-top:20px;
+ }
+ .form-group{
+     padding-top:10px;
+ }
+
+/*Đăng Nhập*/
+
+.dangnhap {
+    padding:10px;
+    background: Silver;
+  }
+  
+
+  .dangnhap input[type=text], input[type=password],input[type=email]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+
+  .container {
+    padding: 20px;
+  }
+
+  span.psw {
+    padding-left:40px;
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  /*Đăng ký*/
+ .dangky{
+  padding: 10px;
+  background: Silver;
+}
+.dangky h1{
+    padding-bottom:10px;
+  border-bottom: 1px solid Gray;
+}
+.dangky input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(160, 157, 157);
+}
+
+.hoten input{
+  width: 49%;
+}
+.chung{
+  padding-top: 10px;
+}
+.chung input{
+  width: 99%;
+}
+label{
+  font-size: 20px;
+  font-weight: 600;
+}
+.gioitinh{
+    font-size:20px;
+  padding-top: 15px;
+}
+.lienhe{
+    margin-top:70px;
+    text-align:center;
+}

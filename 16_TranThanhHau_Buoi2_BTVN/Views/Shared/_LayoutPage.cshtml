@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/style.css")" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <a href="">Start Bootstrap</a>
+            </div>
+            <div class="congcu">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Services", "trangchu", "Bai_78910")</li>
+                    <li>@Html.ActionLink("Fortfolio", "Bai7", "Bai_78910")</li>
+                    <li>@Html.ActionLink("About", "Bai8", "Bai_78910")</li>
+                    <li>@Html.ActionLink("Team", "Bai9", "Bai_78910")</li>
+                    <li>@Html.ActionLink("Contact", "Bai10", "Bai_78910")</li>
+                    <li>@Html.ActionLink("Quay lại HomePage", "Index", "HomePage")</li>
+                </ul>
+            </div>
+            @*<div class="congcu">
+                    <ul>
+                        <li><a href="/Bai_78910/trangchu">services</a></li>
+                        <li><a href="/Bai_78910/Bai7">fortfolio</a></li>
+                        <li><a href="/Bai_78910/Bai8">about</a></li>
+                        <li><a href="/Bai_78910/Bai9">team</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>*@
+        </div>
+        <div class="container">
+            @RenderBody()
+        </div>
+    </header>
+    
+    <footer>
+        <div class="f1">
+            <p>Copyright Your Website 2019</p>
+        </div>
+        <div class="icon_footer">
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-solid fa-location-dot"></i>
+        </div>
+        <div class="f2">
+            <p>Privacy Policy Terms of Use</p>
+        </div>
+    </footer>
+</body>
+</html>

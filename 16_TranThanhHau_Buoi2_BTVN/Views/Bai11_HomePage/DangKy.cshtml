@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_Layout_Bai11.cshtml";
+}
+@model _16_TranThanhHau_Buoi2_BTVN.Models.User
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DangKy</title>
+    <link href="@Url.Content("~/Content/style_Bai11.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form action="/Bai11_HomePage/DangKy" method="post">
+        <div class="dangky">
+            <h1>Đăng ký thành viên</h1>
+            <div class="hoten">
+                <input type="text" placeholder="Họ" id="username" name="username">
+                <input type="text" placeholder="Tên" id="name" name="name">
+            </div>
+            <div class="chung">
+                <input type="text" placeholder="Email" id="email" name="email">
+            </div>
+            <div class="chung">
+                <input type="text" placeholder="Mật khẩu" id="password" name="password">
+            </div>
+            <div class="chung">
+                <input type="text" placeholder="Nhập Lại Mật khẩu" id="retypepassword" name="retypepassword">
+            </div>
+            <div class="chung">
+                <label for="">Ngày sinh</label>
+                <input type="date">
+            </div>
+            <div class="gioitinh">
+                <input name="gioitinh" type="radio" value="Nam">Nam
+                <input name="gioitinh" type="radio" value="Nữ">Nữ
+            </div>
+            <div>
+                <button type="submit">Đăng Ký</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_Layout_Bai11.cshtml";
+}
+@model _16_TranThanhHau_Buoi2_BTVN.Models.User
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DangNhap</title>
+    <link href="@Url.Content("~/Content/style_Bai11.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form action="/Bai11_HomePage/DangNhap" method="post">
+        <div class="dangnhap">
+            <h1>Đăng Nhập</h1>
+            <div class="container">
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Email" id="email" name="email" />
+
+                <label for="username"><b>Họ và tên</b></label>
+                <input type="text" placeholder="UserName" id="username" name="username" />
+
+                <label for="password"><b>Mật Khẩu</b></label>
+                <input type="password" placeholder="Password" id="password" name="password" />
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Lưu thông tin
+                </label>
+                <div>
+                    <button type="submit">Đăng Nhập</button>
+                </div>
+            </div>
+            <div class="containe">
+                <span class="psw"><a href="/Bai11_DangKy/DangKy">Đăng Ký</a></span>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
+
